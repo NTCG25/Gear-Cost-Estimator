@@ -1,6 +1,5 @@
-# SpringBoot-testing
+# Motorcycle Cost Estimator
 
-Current issue is services.db.environment.networks must be a string, number, boolean or null `docker-compose` process finished with exit code 15
+The Motorcycle Cost Estimator is made to estimate the total cost of your gear that you provide and save it to a database.
 
-
-Made using SpringBoot + Java + Tomcat + Docker + PostgreSQL
+Made using SpringBoot + Java + Tomcat + Thymeleaf + MySQL
