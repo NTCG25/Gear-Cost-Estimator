@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost Estimator</title>
+</head>
+<body>
+    <h1>Items:</h1>
+
+<form th:action="estimator" th:method="post" th:object="${gearEstimator}">
+    <label for="helmetName">Helmet</label>
+    <input type="text" th:field="*{helmetName}">
+
+    <label for="helmetCost">Helmet</label>
+    <input type="text" th:field="*{helmetCost}">
+    
+    <label for="jacketName">Jacket</label>
+    <input type="text" th:field="*{jacketName}">
+
+    <label for="jacketCost">Helmet</label>
+    <input type="text" th:field="*{jacketCost}">
+
+    <label for="pantsName">Pants</label>
+    <input type="text" th:field="*{pantsName}">
+
+    <label for="pantsCost">Pants</label>
+    <input type="text" th:field="*{pantsCost}">
+    
+    <label for="glovesName">Gloves</label>
+    <input type="text" th:field="*{glovesName}">
+
+    <label for="glovesCost">Pants</label>
+    <input type="text" th:field="*{glovesCost}">
+
+    <label for="bootsName">Boots</label>
+    <input type="text" th:field="*{bootsName}">
+
+    <label for="bootsCost">Pants</label>
+    <input type="text" th:field="*{bootsCost}">
+</form>
+</body>
+</html>
